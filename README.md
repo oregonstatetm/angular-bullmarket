@@ -1,24 +1,10 @@
 # Bull Market Investment Simulator
 
-# Final Report
-
-## I. Introduction
-
-```
-This project is an investment simulation where a user invests in virtual
-assets which change in value over time. Proceeds from the investments are used to take
-care of a virtual bull or bear pet. The goal is to keep their happiness from decreasing to
-0. Available investments include Bonds, Commodities, Currency, Real Estate and Stocks
-across 100+ countries, 70+ stocks, and 50+ currencies. The game is designed to be a
-reasonable and dynamic approximation of the major investment opportunities around the
-world.
-```
 ## II. Usage
 
 ```
 Bull Market is hosted on AWS at the following URL:
 
-http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com​.
 
 The link will bring you to a login page shown below. If you don't have an account you can
 sign up by clicking the sign up link. After logging in, a user is brought to the home page
@@ -50,8 +36,6 @@ downside to this approach is that the initial load times are slower. Since the c
 so short with only 82 documents the longer initial load time is only a minor problem.
 
 Link to page:
-[http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/stock-table​.](http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/stock-table​)
-
 
 **Individual Stock Pages:** ​ If a row on the stock-table is clicked on, or if a user clicks on a
 scrolling stock ticker symbol, they are brought to an individual stock page. Here users
@@ -62,7 +46,6 @@ bottom which gives additional information about the company. The individual stoc
 provides a widget to buy that company’s stock.
 
 Link to Individual Stock Page:
-[http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/stock-page/AMZN](http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/stock-page/AMZN)
 
 
 **Real Estate Page:** ​After navigating to the real estate page the user is greeted with a
@@ -74,7 +57,6 @@ There is a universal buy widget on the right hand side in which a user can searc
 asset and buy it directly. Pagination is done client-side.
 
 Link to Real Estate page:
-[http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/realestate​](http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/realestate​)**.**
 
 
 **Country Information Page:** ​If a row on the Real Estate Page is clicked, or if a country
@@ -83,14 +65,12 @@ page shows a vector map of the country as well as country statistics. There is a
 about section.
 
 Link to Country Page:
-[http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/country/Brazil](http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/country/Brazil)
 
 
 
 **Currency Page:** ​ Similar page to all other pages. There is also a universal buy widget on
 the right hand side in which a user can search for any asset and buy it directly.
 Pagination is done client-side. Link to the currency Page:
-[http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/currency-table](http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/currency-table)
 
 
 **Individual Currency Page:** ​If a row on the currency table is clicked on you will be
@@ -98,13 +78,11 @@ brought to the individual currencies page. Here you can get a more in depth look
 USD vs that currency. This information includes a graph in which shows the closing rate
 for the last 10 business days. The page also provides a widget to buy that currency. Link
 to one of the currency pages:
-[http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/currency-page/USDEUR](http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/currency-page/USDEUR)
 
 
 **Commodities Page:** ​ Similar page to all other pages. There is also a universal buy
 widget on the right hand side in which a user can search for any asset and buy it directly.
 Link to the commodity page:
-[http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/commodity-table](http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/commodity-table)
 
 
 **Individual Commodity Page:** ​ If a row on the commodity table is clicked on you will be
@@ -112,24 +90,19 @@ brought to the individual commodity’s page. Here you can get a more in depth l
 commodity This information includes a graph in which shows the closing price for the last
 10 business days. The page also provides a widget to buy that commodity. Link to one
 of the commodity pages:
-[http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/commodities-page/USO](http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/commodities-page/USO)
 
 **Bonds Page:** ​ Similar page to all other pages. There is also a universal buy widget on
 the right hand side in which a user can search for any asset and buy it directly. Link to
 the bond page:
-[http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/bond-table](http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/bond-table)
 
 **Investment Page:** ​ Table showing a user’s investments. All the assets bought by the
 user is shown on the table as well as its value. Link to the investment page:
-[http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/portfolio](http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/portfolio)
-
 
 **Profile Page:** ​ Page allows you to change your animal to either a bull or bear, as well as
 rename the animal. Here your animal’s happiness gauge is shown and this gauge can
 be replenished with the buying of food.
 
 Link to Profile Page:
-[http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/profile](http://angularbullmarket-env.eba-ngp4xesd.us-east-2.elasticbeanstalk.com/profile)
 
 
 ## III. Software
@@ -195,118 +168,3 @@ Workflows allowed us to deploy automatically based on commits to the master bran
 This feature of automatic deployment saved us countless hours of time as well as
 allowing for consistent deployments.
 ```
-
-## V. Teammate Contributions
-
-### Richard Joseph:
-
-```
-● Initial setup of AWS for hosting the project live.
-```
-```
-● Initial setup of Github workflow for automatically deploying the project to AWS.
-```
-```
-● Signup and Login Authentication pages and error handling including ensuring
-unique user properties.
-```
-```
-● Imported the Cron package which is used to schedule all jobs performed by the
-site.
-```
-```
-● Stock pages including individual stock views, stock historical tracking, setting up 
-API calls for stocks, and all related services to the page.
-```
-```
-● Currency table, API calls and related services to the page.
-```
-```
-● Setting up the country map and functions related to the map including formatting
-of the map.
-```
-```
-● Individual tracking for commodities.
-```
-```
-● Created the about page.
-```
-```
-● Final project report.
-```
-
-### Trevor Mathwick:
-
-```
-● Initial setup of the webpage, including the general structure that is currently being
-used.
-```
-```
-● User Investing page including the portfolio and balance tracking for each user.
-```
-```
-● Buying and selling functionality for all assets across the project.
-```
-```
-● Real estate table, API calls and related services.
-```
-```
-● Individual pages for the real estate table that utilize the map interface.
-```
-```
-● Management of all user investments and portfolio including error handling,
-restrictions, and exporting logic to other portions of the site.
-```
-```
-● Setting up user balance to be used across the site.
-```
-```
-● Initial project proposal and supporting documentation.
-```
-
-### Austin Henry:
-
-```
-● Initial setup of MongoDB
-```
-```
-● Setting up the commodity table, API calls and related services.
-```
-```
-● Setting up the bonds table and related services.
-```
-```
-● Creating the user profile page and related services.
-```
-```
-● Functionality to change the animal and feed the animal including automatically
-updating the animal’s levels of happiness.
-```
-```
-● Art for the feed animal page in addition to formatting art used for the bull and bear.
-```
-```
-● Project poster.
-```
-
-### All Members participated in the following:
-
-```
-● Code reviewing and debugging.
-```
-```
-● Creating schemas to be used for the DB.
-```
-```
-● Participating in weekly meetings to discuss the project.
-```
-
-## VI. Conclusion
-
-This project was a challenging and well-balanced assignment which produced an interesting
-simulation game. We gained valuable experience with the Angular framework. For the most part
-the project followed our initial plan and I think we exceeded our expectations. The project was
-complicated both in terms of the front end and core development as well as in the back end
-database and data structures. Development of this project will continue after the term.
-
-
