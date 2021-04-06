@@ -2,18 +2,10 @@
 
 # Final Report
 
-```
-CS 467 Online Capstone Project
-December 4, 2020
-```
-**Austin Henry | Richard Joseph | Trevor Mathwick**
-
-
 ## I. Introduction
 
 ```
-11 weeks and hundreds of combined hours and our project is complete! This project aptly named
-“Bull Market”, this project is an investment simulation where a user invests in virtual
+This project is an investment simulation where a user invests in virtual
 assets which change in value over time. Proceeds from the investments are used to take
 care of a virtual bull or bear pet. The goal is to keep their happiness from decreasing to
 0. Available investments include Bonds, Commodities, Currency, Real Estate and Stocks
